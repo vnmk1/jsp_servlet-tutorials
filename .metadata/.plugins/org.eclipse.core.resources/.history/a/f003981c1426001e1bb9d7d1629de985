@@ -1,0 +1,101 @@
+<%@page import="org.apache.jasper.tagplugins.jstl.core.ForEach"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	double tongTien = 0;
+	// Radio button => name
+	String processor = request.getParameter("processor");
+	if(processor != null ){
+		if(processor.equals("Core I9")){
+			tongTien += 5000000;
+		}else if(processor.equals("Core I7")){
+			tongTien += 4000000;
+		}else if(processor.equals("Core I5")){
+			tongTien += 3000000;
+		}
+	}
+	
+	// RAM
+	String ram = request.getParameter("ram");
+	if(ram != null ){
+		if(ram.equals("Ram 8GB")){
+			tongTien += 500000;
+		}else if(ram.equals("Ram 16GB")){
+			tongTien += 1000000;
+	}
+		
+	// Checkbox => name
+	String monitor = request.getParameter("monitor");
+	if(monitor != null){
+		tongTien += 1500000;
+	}
+	
+	//Select
+	String [] accessories = request.getParameterValues("accessories");
+	for (String luaChon: accessories){
+		if(luaChon.equals("Camera")){
+			tongTien += 800000;
+		}
+		if(luaChon.equals("Scanner")){
+			tongTien += 1500000;
+		}
+		if(luaChon.equals("Printer")){
+			tongTien += 1500000;
+		}
+	}
+	%>
+	<h1>HÓA ĐƠN</h1>
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Tên sảm phầm</th>
+				<th scope="col">Giá tiền</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Mark</td>
+				<td>Otto</td>
+				<td>@mdo</td>
+			</tr>
+			<tr>
+				<th scope="row">2</th>
+				<td>Jacob</td>
+				<td>Thornton</td>
+				<td>@fat</td>
+			</tr>
+			<tr>
+				<th scope="row">3</th>
+				<td colspan="2">Larry the Bird</td>
+				<td>@twitter</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

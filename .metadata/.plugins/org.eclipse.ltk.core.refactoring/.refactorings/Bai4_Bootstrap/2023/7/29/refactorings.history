@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Bai4_Bootstrap/src/main/webapp/img/product&apos; to &apos;products&apos;" description="Rename resource &apos;product&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/img/product" name="products" stamp="1689586333716" updateReferences="true"/>
+</session>

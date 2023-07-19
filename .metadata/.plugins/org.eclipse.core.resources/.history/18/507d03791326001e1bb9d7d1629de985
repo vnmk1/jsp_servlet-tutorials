@@ -1,0 +1,41 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	double tongTien = 0;
+	// Radio button => name
+	String processor = request.getParameter("processor");
+	if(processor != null ){
+		if(processor.equals("Core I9")){
+			tongTien += 5000000;
+		}else if(processor.equals("Core I7")){
+			tongTien += 4000000;
+		}else if(processor.equals("Core I5")){
+			tongTien += 3000000;
+		}
+	}
+	
+	// RAM
+	String ram = request.getParameter("ram");
+	if(ram != null ){
+		if(ram.equals("Ram 8GB")){
+			tongTien += 500000;
+		}else if(ram.equals("Ram 16GB")){
+			tongTien += 1000000;
+	}
+		
+	// Checkbox => name
+	String monitor = request.getParameter("monitor");
+	if(monitor != null){
+		tongTien += 1500000;
+	}
+	
+	%>
+</body>
+</html>

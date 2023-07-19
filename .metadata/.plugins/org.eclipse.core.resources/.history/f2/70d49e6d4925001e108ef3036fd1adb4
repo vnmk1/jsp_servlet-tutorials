@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	
+</script>
+</head>
+<body>
+<div id="my-div">
+	NỘI DUNG BAN ĐẦU
+</div>
+
+<input type="button" id="change" value ="Thay đổi"/>
+</body>
+</html>

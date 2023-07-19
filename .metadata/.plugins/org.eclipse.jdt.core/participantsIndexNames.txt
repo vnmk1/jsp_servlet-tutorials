@@ -1,0 +1,13 @@
+INDEX VERSION 1.134
+C:\Users\Asus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3096712644.index
+\Bai1_HelloWorld\src\main\java
+C:\Users\Asus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1748261739.index
+\Bai7_BaiTapJSP\src\main\java
+C:\Users\Asus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2617018318.index
+\Bai6_BaiTapJSP2\src\main\java
+C:\Users\Asus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3362184266.index
+\Bai6_BaiTapJSP1\src\main\java
+C:\Users\Asus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\475679885.index
+\Bai6_BaiTapJSP3\src\main\java
+C:\Users\Asus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2380752474.index
+\Bai8_BaiTapServlet\src\main\java

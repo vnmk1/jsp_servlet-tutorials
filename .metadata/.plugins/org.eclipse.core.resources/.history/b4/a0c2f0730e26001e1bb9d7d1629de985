@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Chọn cấu hình máy tính bạn cần mua</h1>
+	<hr/>
+	<form>
+		<h2>Processor</h2>
+		<input type ="radio" value = "CoreI9" name = "processor">Core I9 </input>
+	</form>
+</body>
+</html>
